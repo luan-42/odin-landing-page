@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-section {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    min-height: 535px;
+    padding: 20px 0;
+}
+
+header > ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAFB;
+    margin-right: auto;
+    font-weight: 900;
+}
+
+.hero-container {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-image {
+    height: 235px;
+    width: 522px;
+    margin: 0;
+    background-color: #6D747D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAFB;
+}
+
+.hero-text {
+    width: 450px;
+}
+
+.hero-text > h1 {
+    font-size: 48px;
+    color: #F9FAFB;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-text > p, .hero-image, .hero-text > button {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text > button {
+    border: none;
+    border-radius: 8px;
+    background-color: #3B82F6;
+    padding: 10px 35px;
+}
+
+.info-title {
+    margin-top: 55px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info-section {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.info {
+    width: 165px;
+    font-size: 18px;
+    color: #4B5563;
+    text-align: center;
+}
+
+.info-image {
+    border: solid 4px #3B82F6;
+    border-radius: 8px;
+    width: 165px;
+    aspect-ratio: 1/1;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 135px 0px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+    margin-left: 35px;
+}
+
+.quote-content {
+    width: 820px;
+    margin: 0 auto;
+}
+
+.author {
+    margin-top: 8px;
+    font-size: 24px;
+    text-align: end;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.action {
+    border-radius: 16px;
+    width: 1024px;
+    margin: 105px auto;
+    background-color: #3B82F6;
+    text-align: left;
+    padding: 25px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.action > button {
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    background-color: #3B82F6;
+    font-size: 18px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px 35px;
+}
+
+.action-text {
+    color:#F9FAFB
+}
+
+.action-text > h2{
+    font-weight: 900;
+}
+
+.action-text > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+footer {
+    height: 100px;
+    color: #F9FAFB;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header, .hero-container, .info-section {
+    width: 1024px;
+    margin: 0 auto;
+}
